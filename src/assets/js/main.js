@@ -12,6 +12,7 @@ jQuery(document).ready(function($) {
 
 
 	$('#menuToggle').on('click', function(event) {
+		//alert('in')
 		$('body').toggleClass('open');
 	});
 
